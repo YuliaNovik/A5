@@ -3,6 +3,9 @@
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
+@Author:Yulia Novikova
+@Date: March 29, 2020
+@Student ID: 991578236
 -->
 <html>
     <head>
@@ -12,12 +15,14 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <!--the header of the order app-->
         <h1 id="header">Welcome to Tim Horton's!</h1>
         
             <div id="section">
+                <!--The start of the first form-->
             <form   method="POST" action="../index.php">
             <h2>Give us some numbers..</h2>
-            
+            <!--Displaying the options to choose number of cups-->
             <label for="coffee">Number of Coffee:</label>
            <select name="coffee">
                 <option value="0">0</option>
@@ -26,7 +31,7 @@ and open the template in the editor.
 		<option value="3">3</option>
                 <option value="4">4</option>
 					</select><br><br>
-            
+            <!--Displaying the options for the coffee size-->
              <label for="size">Size:</label>
 	      <select name="size">
 		<option value="">--- Select Size ---</option>
@@ -35,7 +40,7 @@ and open the template in the editor.
 		<option value="l">Large</option>
                 <option value="xl">Extra Large</option>
 					</select><br><br>
-             
+             <!--Displaying the options for the number of cream-->
               <label for="cream">How many creams: </label>
            <select name="cream">
                 <option selected value="0">0</option>
@@ -44,7 +49,7 @@ and open the template in the editor.
 		<option value="3">3</option>
                 <option value="4">4</option>
                 </select><br><br>
-        
+        <!--Displaying the options for the number of sugar-->
          <label for="sugar">How many sugars: </label>
            <select name="sugar">
                 <option selected value="0">0</option>
@@ -53,16 +58,18 @@ and open the template in the editor.
 		<option value="3">3</option>
                 <option value="4">4</option>
                 </select><br><br>
-                
+                <!--Displaying the order coffee button-->
                 <input type="submit" value="Order Coffee"><br><br>  
 				
                </form>
             </div>
         <br><br><br>
         <div id="section2">
+            <!--The start of the second form-->
                 <form   method="POST" action="../index.php">
-                    
+                    <!--Displaying the header-->
                     <h1 id="header">..or use the slang!</h1>
+                    <!--Displaying the options for the number of coffee -->
                 <label for="coffeeS">Number of Coffee:</label>    
                     <select name="coffeeS">
                 <option value="0">0</option>
@@ -73,6 +80,7 @@ and open the template in the editor.
                 <option value="5">5</option>
 					</select>
                 <br><br>
+                <!--Displaying the options for the coffee size-->
                 <label for="sizeS">Size:</label>
                      <select name="sizeS">
 		<option value="">--- Select Size ---</option>
@@ -82,7 +90,7 @@ and open the template in the editor.
                 <option value="xl">Extra Large</option>
 					</select><br><br>
                     
-                      
+                <!--Displaying the options for the type of coffee-->      
 		   <input type="radio" value="regular" id="regular" name="choice"> 
 		   <label for="regular">Regular</label> <br>
 		   <input type="radio" value="doubleD" id="doubleD" name="choice"> 
@@ -97,7 +105,7 @@ and open the template in the editor.
 		   <label for="blackTS">Black Two Sugars</label> <br>
                    <input type="radio" value="blackThS" id="blackTS" name="choice"> 
                    <label for="blackThS">Black Three Sugars</label> <br><br>
-                      
+                      <!--Displaying the Order coffee button-->
 		   <input type="submit" value="Order Coffee"><br> 	    
                     
                 <br>
