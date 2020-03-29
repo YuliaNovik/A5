@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tim Horton's app</title>
+        <link rel="stylesheet" type="text/css" href="../css.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 id="header">Welcome to Tim Horton's!</h1>
+        
+            <div id="section">
+            <form   method="POST" action="../index.php">
+            <h2>Give us some numbers..</h2>
+            
+            <label for="coffee">Number of Coffee:</label>
+           <select name="coffee">
+                <option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+                <option value="4">4</option>
+					</select><br><br>
+            
+             <label for="size">Size:</label>
+	      <select name="size">
+		<option value="">--- Select Size ---</option>
+		<option value="s">Small</option>
+		<option value="m">Medium</option>
+		<option value="l">Large</option>
+                <option value="xl">Extra Large</option>
+					</select><br><br>
+             
+              <label for="cream">How many creams: </label>
+           <select name="cream">
+                <option selected value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+                <option value="4">4</option>
+                </select><br><br>
+        
+         <label for="sugar">How many sugars: </label>
+           <select name="sugar">
+                <option selected value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+                <option value="4">4</option>
+                </select><br><br>
+                
+                <input type="submit" value="Order Coffee"><br><br>  
+				
+               </form>
+            </div>
+        <br><br><br>
+        <div id="section2">
+                <form   method="POST" action="../index.php">
+                    
+                    <h1 id="header">..or use the slang!</h1>
+                <label for="coffeeS">Number of Coffee:</label>    
+                    <select name="coffeeS">
+                <option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+					</select>
+                <br><br>
+                <label for="sizeS">Size:</label>
+                     <select name="sizeS">
+		<option value="">--- Select Size ---</option>
+		<option value="s">Small</option>
+		<option value="m">Medium</option>
+		<option value="l">Large</option>
+                <option value="xl">Extra Large</option>
+					</select><br><br>
+                    
+                      
+		   <input type="radio" value="regular" id="regular" name="choice"> 
+		   <label for="regular">Regular</label> <br>
+		   <input type="radio" value="doubleD" id="doubleD" name="choice"> 
+		   <label for="doubleD">Double Double</label> <br>
+		   <input type="radio" value="tripleT" id="rating2" name="choice"> 
+		   <label for="tripleT">Triple Triple</label> <br>
+		   <input type="radio" value="black" id="black" name="choice"> 
+		   <label for="black">Black</label> <br>
+		   <input type="radio" value="blackS" id="blackS" name="choice"> 
+		   <label for="blackS">Black One Sugar</label> <br>
+		   <input type="radio" value="blackTS" id="blackTS" name="choice"> 
+		   <label for="blackTS">Black Two Sugars</label> <br>
+                   <input type="radio" value="blackThS" id="blackTS" name="choice"> 
+                   <label for="blackThS">Black Three Sugars</label> <br><br>
+                      
+		   <input type="submit" value="Order Coffee"><br> 	    
+                    
+                <br>
+                            </form>
+
+            </div>
+    </body>
+</html>
